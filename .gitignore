@@ -1,0 +1,46 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm/flutter_sdk
+coverage/
+**/ios/Pods/
+**/android/.gradle/
+**/android/local.properties
+*.g.dart.tmp
+
+# .NET
+bin/
+obj/
+*.user
+TestResults/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Node / Nx
+node_modules/
+dist/
+.nx/cache/
+.nx/workspace-data/
+.angular/
